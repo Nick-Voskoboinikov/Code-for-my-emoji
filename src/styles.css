@@ -32,4 +32,9 @@ legend {
   }
   #copy, #reset {
     font-size: x-large;
+    border-radius: 0.5em;
+    box-shadow: 0 0 30px 5px oklch(68.3% 0 0);
+    -o-box-shadow: 0 0 30px 5px oklch(68.3% 0 0);
+    -moz-box-shadow: 0 0 30px 5px oklch(68.3% 0 0);
+    -webkit-box-shadow: 0 0 30px 5px oklch(68.3% 0 0);
   }
