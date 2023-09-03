@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get HTML code for my emoji</title>
+    <link rel="stylesheet" href="src/styles.css">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>&#128291;</text></svg>">
+    <script src="src/index.js" defer></script>
+</head>
+
+<body>
+    <section>
+        <h1>Get HTML entity for an emoji</h1>
+        <p align="justify">
+            Ever wished to find out what is the html entity for a certain emoji&#10067;<br>
+            Now here you are! &#128522;
+        </p>
+        <fieldset class="generalWrapper">
+            <legend>Fill in the form</legend>
+            <input type="text" id="source" placeholder="Paste your emoji here" />
+            <input type="button" id="reset" title="Clear input field" style="display:none;" value="&#10060" /><br>
+            <div style="display:none;">
+                <input type="text" id="target" placeholder="Your result will be here" />
+                <input type="button" id="copy" title="Copy result to clipboard" value="&#128203;" />
+            </div>
+        </fieldset>
+    </section>
+</body>
+
+</html>

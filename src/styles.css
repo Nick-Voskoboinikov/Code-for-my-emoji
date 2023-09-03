@@ -1,0 +1,37 @@
+body {
+    width: 100dvw;
+    height: 100dvh;
+        background: linear-gradient(
+        to bottom,
+        oklch(79.02% 0.116 146.7), oklch(82.01% 0.098 122.97)) no-repeat;
+        overflow:hidden;
+}
+section{
+    display: grid;
+    place-items: center;
+}
+fieldset {
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    width: 92.7vw;
+    border: 2px groove oklch(51.98% 0.17685825418032033 142.49533888780994);
+}
+legend {
+    /*background-color: oklch(84.52% 0 0);
+    color: oklch(100% 0 0);*/
+    padding: 3px 6px;
+    border: 2px groove oklch(51.98% 0.17685825418032033 142.49533888780994);
+  }
+  input{
+    background-color: transparent;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  #copy, #reset {
+    font-size: x-large;
+  }
